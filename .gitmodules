@@ -40,3 +40,6 @@
 [submodule "vim/bundle/vim-lion"]
 	path = vim/bundle/vim-lion
 	url = git://github.com/tommcdo/vim-lion.git
+[submodule "vim/bundle/auto_mkdir"]
+	path = vim/bundle/auto_mkdir
+	url = git://github.com/DataWraith/auto_mkdir
