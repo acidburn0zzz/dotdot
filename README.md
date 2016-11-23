@@ -30,5 +30,8 @@ chsh -s /usr/local/bin/zsh
 ```
 cd $HOME/Projects
 git clone git@github.com:csutter/dotdot.git
+cd dotc
+git submodule init
+git submodule update
 env RCRC=$HOME/Projects/dotdot/rcrc rcup
 ```
