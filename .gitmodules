@@ -31,3 +31,9 @@
 [submodule "vim/bundle/vim-dispatch"]
 	path = vim/bundle/vim-dispatch
 	url = git://github.com/tpope/vim-dispatch
+[submodule "vim/bundle/vim-airline"]
+	path = vim/bundle/vim-airline
+	url = git://github.com/vim-airline/vim-airline
+[submodule "vim/bundle/lightline.vim"]
+	path = vim/bundle/lightline.vim
+	url = git://github.com/itchyny/lightline.vim

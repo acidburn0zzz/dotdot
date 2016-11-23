@@ -29,3 +29,4 @@ set wrap          "Wrap lines
 " UI Tweaks
 set number        " Line numbers
 set foldcolumn=1  " Add some padding left of the line numbers
+set noshowmode    " Don't need showmode as lightline status line is enough
