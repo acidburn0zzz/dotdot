@@ -1,0 +1,10 @@
+[user]
+  email = chris@doublesignal.com
+  name = Christian Sutter
+[color]
+  ui = true
+[push]
+  default = upstream
+[core]
+  excludesfile = ~/.gitignore_global
+
