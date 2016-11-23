@@ -9,13 +9,14 @@
 set nocompatible
 
 " Pathogen: Includes all plugins under .vim/bundle
-execute pathogen#infect()
+execute pathogen#infect('~/.vim/bundle/{}')
 
 " Colors
 let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"  " Fixes tmux 24-bit color issues
 let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"  " Fixes tmux 24-bit color issues
 set termguicolors                       " Enable 24-bit color
 set background=dark
+syntax on
 colorscheme duotone-firewatch
 
 " Indentation
