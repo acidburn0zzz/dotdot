@@ -25,3 +25,7 @@ set tabstop=2
 set ai            "Auto indent
 set si            "Smart indent
 set wrap          "Wrap lines
+
+" UI Tweaks
+set number        " Line numbers
+set foldcolumn=1  " Add some padding left of the line numbers
