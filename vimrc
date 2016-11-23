@@ -11,3 +11,16 @@ set nocompatible
 " Pathogen: Includes all plugins under .vim/bundle
 execute pathogen#infect()
 
+" Colors
+let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"  " Fixes tmux 24-bit color issues
+let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"  " Fixes tmux 24-bit color issues
+set termguicolors                       " Enable 24-bit color
+set background=dark
+colorscheme duotone-firewatch
+
+" Indentation
+set shiftwidth=2  " 1 tab == 2 spaces
+set tabstop=2
+set ai            "Auto indent
+set si            "Smart indent
+set wrap          "Wrap lines
