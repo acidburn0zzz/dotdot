@@ -35,3 +35,9 @@ git submodule init
 git submodule update
 env RCRC=$HOME/Projects/dotdot/rcrc rcup
 ```
+
+## Inspiration
+
+- [thoughtbot/dotfiles](https://github.com/thoughtbot/dotfiles)
+
+... and a few others over the years!

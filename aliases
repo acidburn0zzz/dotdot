@@ -1,0 +1,34 @@
+## Shell
+alias sup="source $HOME/.zshrc && echo 'Reloaded .zshrc!'"
+
+## Tail
+alias tf="tail -n0 -f"
+
+## Directories
+alias l="ls"
+alias ll="ls -al"
+
+## Ruby
+alias be="bundle exec"
+
+## Docker
+alias d="docker"
+alias dc="docker-compose"
+
+## Git
+alias gf="git fetch"
+alias gg="git grep"
+alias gcm="git commit -m"
+alias gca="git commit --amend"
+alias gl="git log --pretty=format:'%C(cyan)%h%Creset%C(yellow)%d%Creset %s %C(yellow bold)(%cr by %an)%Creset' --abbrev-commit"
+alias gst="git status -sb"
+alias ga="git add"
+alias gb="git branch"
+alias gco="git checkout"
+alias gp="git push"
+alias gd="git diff"
+alias gu="git up"
+
+## Vim
+alias v="vim"
+alias vi="vim"
