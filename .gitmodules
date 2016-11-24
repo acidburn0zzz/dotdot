@@ -43,3 +43,6 @@
 [submodule "vim/bundle/vim-two-firewatch"]
 	path = vim/bundle/vim-two-firewatch
 	url = git://github.com/rakr/vim-two-firewatch
+[submodule "vim/bundle/vim-airline"]
+	path = vim/bundle/vim-airline
+	url = git://github.com/vim-airline/vim-airline
