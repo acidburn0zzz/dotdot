@@ -29,7 +29,6 @@ let g:airline_theme='one'
 if !exists('g:airline_symbols')
   let g:airline_symbols = {}
 endif
-
 let g:airline_left_sep = ''
 let g:airline_right_sep = ''
 let g:airline_symbols.branch = ''
@@ -47,3 +46,26 @@ set wrap          "Wrap lines
 set number        " Line numbers
 set foldcolumn=1  " Add some padding left of the line numbers
 set noshowmode    " Don't need showmode as lightline status line is enough
+
+" Pane/window management
+"" Remap Ctrl-W to Space for easier pane management
+nmap <silent> <Space> <C-w>
+" Space Space to switch windows
+nmap <silent> <Space><Space> :wincmd w<CR>
+" Space / to vsplit and focus new pane
+nmap <silent> <Space>/ :vsplit<CR>:wincmd w<CR>
+" Space ? to (h)split and focus new pane
+nmap <silent> <Space>? :split<CR>:wincmd w<CR>
+" Ctrl-d to :q
+nmap <C-d> :q<CR>
+
+" Leader shortcuts
+"" Run the current file's spec
+map <Leader>r :Rake<CR>
+"" Run rake without an argument (runs all specs)
+map <Leader>R :Make<CR>
+"" Hide quickfix window
+map <silent> <Leader>q :ccl<CR>
+"" Show previous quickfix window
+map <silent> <Leader>Q :cw<CR>
+
