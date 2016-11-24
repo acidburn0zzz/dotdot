@@ -23,6 +23,19 @@ set background=dark
 colorscheme one
 let g:airline_theme='one'
 
+" Airline
+"   - Don't use powerline font separator symbols
+"   - Set up some sensible symbols
+if !exists('g:airline_symbols')
+  let g:airline_symbols = {}
+endif
+
+let g:airline_left_sep = ''
+let g:airline_right_sep = ''
+let g:airline_symbols.branch = ''
+let g:airline_symbols.readonly = ''
+let g:airline_symbols.linenr = ''
+
 " Indentation
 set shiftwidth=2  " 1 tab == 2 spaces
 set tabstop=2
