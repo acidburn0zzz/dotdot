@@ -46,3 +46,6 @@
 [submodule "vim/bundle/vim-airline"]
 	path = vim/bundle/vim-airline
 	url = git://github.com/vim-airline/vim-airline
+[submodule "vim/bundle/Base2Tone-vim"]
+	path = vim/bundle/Base2Tone-vim
+	url = git://github.com/atelierbram/Base2Tone-vim.git
