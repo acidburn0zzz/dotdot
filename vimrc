@@ -38,14 +38,24 @@ let g:airline_symbols.linenr = ''
 " Indentation
 set shiftwidth=2  " 1 tab == 2 spaces
 set tabstop=2
-set ai            "Auto indent
-set si            "Smart indent
-set wrap          "Wrap lines
+set expandtab     " Spaces instead of tabs
+set ai            " Auto indent
+set si            " Smart indent
+
+" Word wrapping
+set wrap          " Wrap lines
+set breakindent   " Word wrap continues at same column
+
+" List mode
+set listchars=eol:¬,tab:>·,trail:~,extends:>,precedes:<,space:␣
 
 " UI Tweaks
 set number        " Line numbers
 set foldcolumn=1  " Add some padding left of the line numbers
 set noshowmode    " Don't need showmode as lightline status line is enough
+
+" Remove trailing whitespace for non-whitespace sensitive file types
+autocmd FileType c,cpp,java,php,html,ruby autocmd BufWritePre <buffer> %s/\s\+$//e
 
 " Pane/window management
 "" Remap Ctrl-W to Space for easier pane management
@@ -62,6 +72,8 @@ nmap <silent> <Space><Tab> :NERDTreeToggle<CR>
 nmap <C-d> :q<CR>
 
 " Leader shortcuts
+"" Set/unset list
+map <silent> <Leader>l :set list!<CR>
 "" Run the current file's spec
 map <Leader>r :Rake<CR>
 "" Run rake without an argument (runs all specs)
