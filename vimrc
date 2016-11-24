@@ -56,6 +56,8 @@ nmap <silent> <Space><Space> :wincmd w<CR>
 nmap <silent> <Space>/ :vsplit<CR>:wincmd w<CR>
 " Space ? to (h)split and focus new pane
 nmap <silent> <Space>? :split<CR>:wincmd w<CR>
+" Space Tab to open/close NERDTree
+nmap <silent> <Space><Tab> :NERDTreeToggle<CR>
 " Ctrl-d to :q
 nmap <C-d> :q<CR>
 
@@ -64,8 +66,3 @@ nmap <C-d> :q<CR>
 map <Leader>r :Rake<CR>
 "" Run rake without an argument (runs all specs)
 map <Leader>R :Make<CR>
-"" Hide quickfix window
-map <silent> <Leader>q :ccl<CR>
-"" Show previous quickfix window
-map <silent> <Leader>Q :cw<CR>
-
