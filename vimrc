@@ -15,9 +15,9 @@ execute pathogen#infect('~/.vim/bundle/{}')
 let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"  " Fixes tmux 24-bit color issues
 let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"  " Fixes tmux 24-bit color issues
 set termguicolors                       " Enable 24-bit color
-set background=dark
 syntax on
-colorscheme duotone-firewatch
+set background=dark
+colorscheme one
 
 " Indentation
 set shiftwidth=2  " 1 tab == 2 spaces

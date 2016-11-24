@@ -43,3 +43,9 @@
 [submodule "vim/bundle/auto_mkdir"]
 	path = vim/bundle/auto_mkdir
 	url = git://github.com/DataWraith/auto_mkdir
+[submodule "vim/bundle/vim-one"]
+	path = vim/bundle/vim-one
+	url = git://github.com/rakr/vim-one
+[submodule "vim/bundle/vim-two-firewatch"]
+	path = vim/bundle/vim-two-firewatch
+	url = git://github.com/rakr/vim-two-firewatch
