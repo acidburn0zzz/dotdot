@@ -26,6 +26,7 @@ alias ga="git add"
 alias gb="git branch"
 alias gco="git checkout"
 alias gp="git push"
+alias gpu="git push --set-upstream origin $(git_current_branch)"
 alias gd="git diff"
 alias gu="git up"
 
