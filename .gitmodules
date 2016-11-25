@@ -49,3 +49,6 @@
 [submodule "vim/bundle/Base2Tone-vim"]
 	path = vim/bundle/Base2Tone-vim
 	url = git://github.com/atelierbram/Base2Tone-vim.git
+[submodule "vim/bundle/vim-commentary"]
+	path = vim/bundle/vim-commentary
+	url = git://github.com/tpope/vim-commentary
