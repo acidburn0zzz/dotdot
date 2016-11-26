@@ -74,6 +74,8 @@ nmap <C-d> :q<CR>
 " Leader shortcuts
 "" Set/unset list
 map <silent> <Leader>l :set list!<CR>
+"" Set/unset paste
+map <silent> <Leader>p :set paste!<CR>
 "" Run the current file's spec
 map <Leader>r :Rake<CR>
 "" Run rake without an argument (runs all specs)
