@@ -68,6 +68,8 @@ nmap <silent> <Space>/ :vsplit<CR>:wincmd w<CR>
 nmap <silent> <Space>? :split<CR>:wincmd w<CR>
 " Space Tab to open/close NERDTree
 nmap <silent> <Space><Tab> :NERDTreeToggle<CR>
+" Space C to close quickfix window
+nmap <silent> <Space>C :ccl<CR>
 " Ctrl-d to :q
 nmap <C-d> :q<CR>
 
