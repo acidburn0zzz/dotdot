@@ -4,9 +4,6 @@
 "   This should always be set by default anyway but some distros might muck it up.
 set nocompatible
 
-" Pathogen: Includes all plugins under .vim/bundle
-execute pathogen#infect('~/.vim/bundle/{}')
-
 " Sensible.vim - provides a lot of sane defaults.
 "   https://github.com/tpope/vim-sensible
 " That's why many "usual suspects" are missing from this vimrc.

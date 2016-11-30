@@ -1,57 +1,57 @@
 [submodule "vim/bundle/vim-fugitive"]
-	path = vim/bundle/vim-fugitive
+	path = vim/pack/plugins/start/vim-fugitive
 	url = git://github.com/tpope/vim-fugitive
 [submodule "vim/bundle/vim-rails"]
-	path = vim/bundle/vim-rails
+	path = vim/pack/plugins/start/vim-rails
 	url = git://github.com/tpope/vim-rails
 [submodule "vim/bundle/vim-bundler"]
-	path = vim/bundle/vim-bundler
+	path = vim/pack/plugins/start/vim-bundler
 	url = git://github.com/tpope/vim-bundler
 [submodule "vim/bundle/vim-surround"]
-	path = vim/bundle/vim-surround
+	path = vim/pack/plugins/start/vim-surround
 	url = git://github.com/tpope/vim-surround
 [submodule "vim/bundle/nerdtree"]
-	path = vim/bundle/nerdtree
+	path = vim/pack/plugins/start/nerdtree
 	url = git://github.com/scrooloose/nerdtree
 [submodule "vim/bundle/ctrlp.vim"]
-	path = vim/bundle/ctrlp.vim
+	path = vim/pack/plugins/start/ctrlp.vim
 	url = git://github.com/kien/ctrlp.vim
 [submodule "vim/bundle/vim-rhubarb"]
-	path = vim/bundle/vim-rhubarb
+	path = vim/pack/plugins/start/vim-rhubarb
 	url = git://github.com/tpope/vim-rhubarb.git
 [submodule "vim/bundle/vim-sensible"]
-	path = vim/bundle/vim-sensible
+	path = vim/pack/plugins/start/vim-sensible
 	url = git://github.com/tpope/vim-sensible
 [submodule "vim/bundle/vim-ragtag"]
-	path = vim/bundle/vim-ragtag
+	path = vim/pack/plugins/start/vim-ragtag
 	url = git://github.com/tpope/vim-ragtag
 [submodule "vim/bundle/vim-endwise"]
-	path = vim/bundle/vim-endwise
+	path = vim/pack/plugins/start/vim-endwise
 	url = git://github.com/tpope/vim-endwise
 [submodule "vim/bundle/vim-dispatch"]
-	path = vim/bundle/vim-dispatch
+	path = vim/pack/plugins/start/vim-dispatch
 	url = git://github.com/tpope/vim-dispatch
 [submodule "vim/bundle/vim-lion"]
-	path = vim/bundle/vim-lion
+	path = vim/pack/plugins/start/vim-lion
 	url = git://github.com/tommcdo/vim-lion.git
 [submodule "vim/bundle/auto_mkdir"]
-	path = vim/bundle/auto_mkdir
+	path = vim/pack/plugins/start/auto_mkdir
 	url = git://github.com/DataWraith/auto_mkdir
 [submodule "vim/bundle/vim-one"]
-	path = vim/bundle/vim-one
+	path = vim/pack/plugins/start/vim-one
 	url = git://github.com/rakr/vim-one
 [submodule "vim/bundle/vim-two-firewatch"]
-	path = vim/bundle/vim-two-firewatch
+	path = vim/pack/plugins/start/vim-two-firewatch
 	url = git://github.com/rakr/vim-two-firewatch
 [submodule "vim/bundle/vim-airline"]
-	path = vim/bundle/vim-airline
+	path = vim/pack/plugins/start/vim-airline
 	url = git://github.com/vim-airline/vim-airline
 [submodule "vim/bundle/Base2Tone-vim"]
-	path = vim/bundle/Base2Tone-vim
+	path = vim/pack/plugins/start/Base2Tone-vim
 	url = git://github.com/atelierbram/Base2Tone-vim.git
 [submodule "vim/bundle/vim-commentary"]
-	path = vim/bundle/vim-commentary
+	path = vim/pack/plugins/start/vim-commentary
 	url = git://github.com/tpope/vim-commentary
 [submodule "vim/bundle/vim-indent-object"]
-	path = vim/bundle/vim-indent-object
+	path = vim/pack/plugins/start/vim-indent-object
 	url = git://github.com/michaeljsmith/vim-indent-object
