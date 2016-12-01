@@ -17,7 +17,7 @@ let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"  " Fixes tmux 24-bit color issues
 set termguicolors                       " Enable 24-bit color
 syntax on
 set background=dark
-colorscheme Base2Tone-Evening-dark
+colorscheme gruvbox 
 let g:airline_theme='one'
 
 " Airline
