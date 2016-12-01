@@ -18,7 +18,7 @@ set termguicolors                       " Enable 24-bit color
 syntax on
 set background=dark
 colorscheme gruvbox 
-let g:airline_theme='one'
+let g:airline_theme='gruvbox'
 
 " Airline
 "   - Don't use powerline font separator symbols
