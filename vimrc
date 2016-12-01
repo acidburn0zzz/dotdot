@@ -54,6 +54,9 @@ set noshowmode    " Don't need showmode as lightline status line is enough
 " Remove trailing whitespace for non-whitespace sensitive file types
 autocmd FileType c,cpp,java,php,html,ruby,yaml,css autocmd BufWritePre <buffer> %s/\s\+$//e
 
+" Add ignore option to not have CtrlP and wild menu look in useless folders
+set wildignore+=*/tmp/*,*/_site/*
+
 " Pane/window management
 "" Remap Ctrl-W to Space for easier pane management
 nmap <silent> <Space> <C-w>
