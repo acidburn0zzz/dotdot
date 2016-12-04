@@ -12,9 +12,13 @@ set nocompatible
 runtime! plugin/sensible.vim
 
 " Colors
-let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"  " Fixes tmux 24-bit color issues
-let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"  " Fixes tmux 24-bit color issues
-set termguicolors                       " Enable 24-bit color
+if has("mac")
+  " Eventually I'd like to get true colour working over SSH too, but for now
+  " we'll have to settle for 256 colours on non-Mac machines.
+  let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"  " Fixes tmux 24-bit color issues
+  let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"  " Fixes tmux 24-bit color issues
+  set termguicolors                       " Enable 24-bit color
+endif
 syntax on
 set background=dark
 colorscheme gruvbox 
