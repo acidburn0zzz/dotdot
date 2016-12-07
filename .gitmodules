@@ -37,18 +37,9 @@
 [submodule "vim/bundle/auto_mkdir"]
 	path = vim/pack/plugins/start/auto_mkdir
 	url = git://github.com/DataWraith/auto_mkdir
-[submodule "vim/bundle/vim-one"]
-	path = vim/pack/plugins/start/vim-one
-	url = git://github.com/rakr/vim-one
-[submodule "vim/bundle/vim-two-firewatch"]
-	path = vim/pack/plugins/start/vim-two-firewatch
-	url = git://github.com/rakr/vim-two-firewatch
 [submodule "vim/bundle/vim-airline"]
 	path = vim/pack/plugins/start/vim-airline
 	url = git://github.com/vim-airline/vim-airline
-[submodule "vim/bundle/Base2Tone-vim"]
-	path = vim/pack/plugins/start/Base2Tone-vim
-	url = git://github.com/atelierbram/Base2Tone-vim.git
 [submodule "vim/bundle/vim-commentary"]
 	path = vim/pack/plugins/start/vim-commentary
 	url = git://github.com/tpope/vim-commentary
