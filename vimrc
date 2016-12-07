@@ -61,6 +61,9 @@ autocmd FileType c,cpp,java,php,html,ruby,yaml,css autocmd BufWritePre <buffer> 
 " Add ignore option to not have CtrlP and wild menu look in useless folders
 set wildignore+=*/tmp/*,*/_site/*
 
+" Make ; behave like :
+nmap ; :
+
 " Pane/window management
 "" Remap Ctrl-W to Space for easier pane management
 nmap <silent> <Space> <C-w>
