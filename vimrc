@@ -61,6 +61,10 @@ autocmd FileType c,cpp,java,php,html,ruby,yaml,css autocmd BufWritePre <buffer> 
 " Add ignore option to not have CtrlP and wild menu look in useless folders
 set wildignore+=*/tmp/*,*/_site/*
 
+" Don't create backup and swap files (that's what Git is for)
+set nobackup
+set noswapfile
+
 " Make ; behave like :
 nmap ; :
 
