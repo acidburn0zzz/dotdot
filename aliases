@@ -34,3 +34,6 @@ alias gu="git up"
 ## Vim
 alias v="vim"
 alias vi="vim"
+
+# Ctags
+alias ctg="ctags -R --exclude=vendor --exclude=log --exclude=tmp --exclude=.git"
