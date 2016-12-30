@@ -11,6 +11,9 @@ set nocompatible
 " file.
 runtime! plugin/sensible.vim
 
+" Enable matchit
+runtime macros/matchit.vim
+
 " Colors
 if has("mac")
   " Eventually I'd like to get true colour working over SSH too, but for now
