@@ -49,3 +49,6 @@
 [submodule "vim/pack/plugins/start/gruvbox"]
 	path = vim/pack/plugins/start/gruvbox
 	url = git://github.com/morhetz/gruvbox
+[submodule "vim/pack/plugins/start/vim-autotag"]
+	path = vim/pack/plugins/start/vim-autotag
+	url = git://github.com/craigemery/vim-autotag.git
