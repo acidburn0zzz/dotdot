@@ -1,5 +1,5 @@
 # ensure dotfiles bin directory is loaded first
-PATH="$HOME/.bin:$HOME/bin:/usr/local/sbin:/usr/local/bin:$PATH"
+PATH="$HOME/.bin:$HOME/.rbenv/bin:$HOME/bin:/usr/local/sbin:/usr/local/bin:$PATH"
 
 # load rbenv if available
 if command -v rbenv >/dev/null; then
