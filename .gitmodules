@@ -58,3 +58,6 @@
 [submodule "vim/pack/plugins/start/vim-textobj-user"]
 	path = vim/pack/plugins/start/vim-textobj-user
 	url = https://github.com/kana/vim-textobj-user
+[submodule "vim/pack/plugins/start/vim-scala"]
+	path = vim/pack/plugins/start/vim-scala
+	url = https://github.com/derekwyatt/vim-scala
