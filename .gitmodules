@@ -28,9 +28,6 @@
 [submodule "vim/bundle/vim-endwise"]
 	path = vim/pack/plugins/start/vim-endwise
 	url = git://github.com/tpope/vim-endwise
-[submodule "vim/bundle/vim-dispatch"]
-	path = vim/pack/plugins/start/vim-dispatch
-	url = git://github.com/tpope/vim-dispatch
 [submodule "vim/bundle/vim-lion"]
 	path = vim/pack/plugins/start/vim-lion
 	url = git://github.com/tommcdo/vim-lion.git
@@ -64,3 +61,6 @@
 [submodule "vim/pack/plugins/start/vim-tmux-navigator"]
 	path = vim/pack/plugins/start/vim-tmux-navigator
 	url = https://github.com/christoomey/vim-tmux-navigator
+[submodule "vim/pack/plugins/start/asyncrun.vim"]
+	path = vim/pack/plugins/start/asyncrun.vim
+	url = https://github.com/skywind3000/asyncrun.vim

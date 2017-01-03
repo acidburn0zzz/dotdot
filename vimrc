@@ -102,7 +102,7 @@ nmap <C-d> :q<CR>
 map <silent> <Leader>l :set list!<CR>
 "" Set/unset paste
 map <silent> <Leader>p :set paste!<CR>
-"" Run the current file's spec
-map <Leader>r :Rake<CR>
+"" Run the current file in rspec
+map <silent> <Leader>r :AsyncRun bundle exec rspec %<CR>:copen<CR>
 "" Run rake without an argument (runs all specs)
-map <Leader>R :Make<CR>
+map <silent> <Leader>R :AsyncRun bundle exec rake<CR>:copen<CR>
