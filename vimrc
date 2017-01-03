@@ -72,14 +72,24 @@ set noswapfile
 nmap ; :
 
 " Pane/window management
+"" vim-tmux-navigator: Don't use default mappings
+let g:tmux_navigator_no_mappings = 1
+
+"" vim-tmux-navigator: Mappings to match tmux.conf
+nnoremap <silent> <Leader><Left>  :TmuxNavigateLeft<cr>
+nnoremap <silent> <Leader><Down>  :TmuxNavigateDown<cr>
+nnoremap <silent> <Leader><Up>    :TmuxNavigateUp<cr>
+nnoremap <silent> <Leader><Right> :TmuxNavigateRight<cr>
+nnoremap <silent> <Leader>\       :TmuxNavigatePrevious<cr>
+
 "" Remap Ctrl-W to Space for easier pane management
 nmap <silent> <Space> <C-w>
 " Space Space to switch windows
 nmap <silent> <Space><Space> :wincmd w<CR>
-" Space / to vsplit and focus new pane
-nmap <silent> <Space>/ :vsplit<CR>:wincmd w<CR>
-" Space ? to (h)split and focus new pane
-nmap <silent> <Space>? :split<CR>:wincmd w<CR>
+" Space | to vsplit and focus new pane
+nmap <silent> <Space><bar> :vsplit<CR>:wincmd w<CR>
+" Space - to (h)split and focus new pane
+nmap <silent> <Space>- :split<CR>:wincmd w<CR>
 " Space Tab to open/close NERDTree
 nmap <silent> <Space><Tab> :NERDTreeToggle<CR>
 " Space C to close quickfix window
