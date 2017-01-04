@@ -71,6 +71,10 @@ set noswapfile
 " Make ; behave like :
 nmap ; :
 
+" Make the quickfix window auto-open
+autocmd QuickFixCmdPost [^l]* nested cwindow
+autocmd QuickFixCmdPost    l* nested lwindow
+
 " Pane/window management
 "" vim-tmux-navigator: Don't use default mappings
 let g:tmux_navigator_no_mappings = 1
@@ -103,6 +107,6 @@ map <silent> <Leader>l :set list!<CR>
 "" Set/unset paste
 map <silent> <Leader>p :set paste!<CR>
 "" Run the current file in rspec
-map <silent> <Leader>r :AsyncRun bundle exec rspec %<CR>:copen<CR>
+map <silent> <Leader>r :AsyncRun bundle exec rspec %<CR>
 "" Run rake without an argument (runs all specs)
-map <silent> <Leader>R :AsyncRun bundle exec rake<CR>:copen<CR>
+map <silent> <Leader>R :AsyncRun bundle exec rake<CR>
