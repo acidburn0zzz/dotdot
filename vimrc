@@ -57,6 +57,7 @@ set listchars=eol:¬,tab:>·,trail:~,extends:>,precedes:<,space:␣
 set number        " Line numbers
 set foldcolumn=1  " Add some padding left of the line numbers
 set noshowmode    " Don't need showmode as lightline status line is enough
+set cursorline    " Highlight current line
 
 " Remove trailing whitespace for non-whitespace sensitive file types
 autocmd FileType c,cpp,java,php,html,ruby,yaml,css autocmd BufWritePre <buffer> %s/\s\+$//e
