@@ -69,9 +69,6 @@ set wildignore+=*/tmp/*,*/_site/*
 set nobackup
 set noswapfile
 
-" Make ; behave like :
-nmap ; :
-
 " Make the quickfix window auto-open
 autocmd QuickFixCmdPost [^l]* nested cwindow
 autocmd QuickFixCmdPost    l* nested lwindow
