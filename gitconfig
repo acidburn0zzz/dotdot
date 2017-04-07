@@ -1,10 +1,22 @@
 [user]
-  email = chris@doublesignal.com
+  email = git@doublesignal.com
   name = Christian Sutter
+[alias]
+  prn = remote prune origin
+[merge]
+  ff = only
+  conflictstyle = diff3
 [color]
   ui = true
 [push]
   default = upstream
 [core]
   excludesfile = ~/.gitignore_global
-
+[status]
+  showUntrackedFiles = all
+[diff]
+  tool = icdiff
+[difftool]
+  prompt = false
+[difftool "icdiff"]
+  cmd = /usr/local/bin/icdiff --line-numbers $LOCAL $REMOTE

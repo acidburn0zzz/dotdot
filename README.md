@@ -6,6 +6,7 @@ The 2017 version of my dotfiles.
 
 ## Installation (Mac)
 
+- Set up GPG tools and keys
 - Install iTerm2
   - Use _Hack Regular_ font, size 12
 - Install Homebrew
@@ -14,7 +15,7 @@ The 2017 version of my dotfiles.
 ```
 brew tap thoughtbot/formulae
 brew install zsh git readline ssh-copy-id tmux tree rcm reattach-to-user-namespace httpie
-brew install vim ctags
+brew install vim ctags icdiff
 ```
 
 - Set `zsh` as your login shell:
