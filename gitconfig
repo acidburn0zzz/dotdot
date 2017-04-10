@@ -1,6 +1,7 @@
 [user]
   email = git@doublesignal.com
   name = Christian Sutter
+	signingkey = A7F60FAC
 [alias]
   prn = remote prune origin
 [merge]
